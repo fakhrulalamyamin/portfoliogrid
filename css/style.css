@@ -1,0 +1,25 @@
+#main-header img {
+  height: 100%;
+  width: 100%;
+}
+
+.bg-black {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+#main-header .item-box {
+  width: 30%;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+#main-header .item-box:hover {
+  opacity: .8;
+}
+
+@media only screen and (min-width: 1199px) {
+  #main-header .item-box {
+    padding: 3em !important;
+  }
+}
